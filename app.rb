@@ -8,7 +8,8 @@ class App < Sinatra::Base
   end
 
   get '/index' do
-    "Click Here To List A Puppy"
+
+    erb :index
 
   end
 end
