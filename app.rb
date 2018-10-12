@@ -8,7 +8,7 @@ class App < Sinatra::Base
   end
 
   get '/index' do
-    "hello"
+    "Click Here To List A Puppy"
 
   end
 end
